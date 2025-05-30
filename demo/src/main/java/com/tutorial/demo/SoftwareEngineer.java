@@ -43,6 +43,8 @@ public class SoftwareEngineer {
         this.techStack = techStack;
     }
 
+    /* equals() and hashes */
+
     @Override
     public boolean equals(Object o){
         if (o == null || getClass() != o.getClass()) return false;
