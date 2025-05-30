@@ -1,18 +1,17 @@
 package com.tutorial.demo;
 
 import java.util.Objects;
-import java.util.List;
 
 public class SoftwareEngineer {
     private Integer id;
     private String name;
-    private List<String> techStack;
+    private String techStack;
 
     /*Constructors*/
     public SoftwareEngineer(){
     }
 
-    public SoftwareEngineer(Integer id, String name, List<String> techStack){
+    public SoftwareEngineer(Integer id, String name, String techStack){
         this.id = id;
         this.name = name;
         this.techStack = techStack;
@@ -40,7 +39,7 @@ public class SoftwareEngineer {
         return techStack;
     }
 
-    public void setTechStack(List<String> techStack){
+    public void setTechStack(String techStack){
         this.techStack = techStack;
     }
 
