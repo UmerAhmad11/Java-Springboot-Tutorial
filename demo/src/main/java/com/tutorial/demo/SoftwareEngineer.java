@@ -2,7 +2,13 @@ package com.tutorial.demo;
 
 import java.util.Objects;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class SoftwareEngineer {
+
+    @Id
     private Integer id;
     private String name;
     private String techStack;
